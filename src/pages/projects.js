@@ -18,8 +18,10 @@ const Projects = () => {
           <div className="col-span-2 h-auto justify-center pt-2">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">MTA Accessible Station Tracker</b>{" "}
-              {"//"}
-              project 1
+              <b className="whitespace-nowrap">
+                {"//"}
+                project 1
+              </b>
             </h1>
 
             <div className="flex h-auto w-auto flex-col rounded-xl border-2 border-[#1E2D3D] bg-[#011221] xl:flex-row">
@@ -56,7 +58,9 @@ const Projects = () => {
           <div className="col-span-2 md:col-span-1">
             <h1 className="pb-3">
               <b className="text-[#5565e8]">Device Inventory Application</b>{" "}
-              {"//"}project 2
+              <b className="whitespace-nowrap md:break-words">
+                {"//"}project 2
+              </b>
             </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
@@ -81,8 +85,12 @@ const Projects = () => {
           </div>
           <div className="col-span-2 md:col-span-1">
             <h1 className="pb-3">
-              <b className="text-[#5565e8]">Endless Runner Game</b> {"//"}
-              project 3
+              <b className="text-[#5565e8]">Endless Runner Game </b>
+
+              <b className="whitespace-nowrap">
+                {"//"}
+                project 3
+              </b>
             </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
               <Image
