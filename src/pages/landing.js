@@ -34,8 +34,8 @@ const Landing = () => {
               <span className="text-[#43D9AD]"> githubLink</span>
               <span> =</span>{" "}
               <span className="block text-[#e99287] md:inline">
-                <a href="https://github.com/wilson-diaz-antigua">
-                  “github.com/wilson-diaz-antigua”
+                <a href="https://github.com/wilson-D-A">
+                  “github.com/wilson-D-A”
                 </a>
               </span>
             </p>
