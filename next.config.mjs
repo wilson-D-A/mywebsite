@@ -9,7 +9,7 @@ const nextConfig = {
       }
     ];
   },
-  reactStrictMode: true,
+  reactStrictsMode: true,
 };
 
 export default nextConfig;
