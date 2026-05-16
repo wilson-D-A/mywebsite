@@ -47,9 +47,7 @@ const Projects = () => {
                   accessibility information for a specific route.
                 </p>
                 <button className="w-fit flex-col justify-between rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
-                  <a href="https://willdiaz.me/project/mtaTracker">
-                    View-Website
-                  </a>
+                  <a href="https://ada-alerts.willdiaz.me/">View-Website</a>
                 </button>
               </div>
             </div>
@@ -57,9 +55,49 @@ const Projects = () => {
 
           <div className="col-span-2 md:col-span-1">
             <h1 className="pb-3">
-              <b className="text-[#5565e8]">Device Inventory Application</b>{" "}
+              <b className="text-[#5565e8]">Watch-Later</b>{" "}
               <b className="whitespace-nowrap md:break-words">
                 {"//"}project 2
+              </b>
+            </h1>
+            <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
+              <div className="mb-2 flex h-72 w-full">
+                <div className="relative h-auto w-[25%]">
+                  <Image
+                    src="/projects/watchedMobile.png"
+                    alt="Watch Later Project"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 300px"
+                    className="rounded-t object-cover object-left-bottom"
+                  />
+                </div>
+                <div className="relative h-auto w-[75%]">
+                  <Image
+                    src="/projects/watched.png"
+                    alt="Watch Later Project"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 300px"
+                    className="rounded-t object-cover object-left-top"
+                  />
+                </div>
+              </div>
+              <div className="min-h-[100px] px-3 py-5">
+                <p className="pb-3">
+                  personal project that scrapes all the videos from my youtube
+                  playlist, categorizes them, and allows me to filter through
+                  them.
+                </p>
+                <button className="w-fit rounded-lg bg-[#1c2b3a] px-4 py-2 text-xs text-white">
+                  <a href="https://watch-later.willdiaz.me">View-Website</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-2 md:col-span-1">
+            <h1 className="pb-3">
+              <b className="text-[#5565e8]">Device Inventory Application</b>{" "}
+              <b className="whitespace-nowrap md:break-words">
+                {"//"}project 3
               </b>
             </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
@@ -89,7 +127,7 @@ const Projects = () => {
 
               <b className="whitespace-nowrap">
                 {"//"}
-                project 3
+                project 4
               </b>
             </h1>
             <div className="overflow-hidden rounded-xl border-2 border-[#1E2D3D] bg-[#011221]">
