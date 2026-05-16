@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/project/:path*",
-        destination:[ "https://mta-ada-alerts.vercel.app/project/:path*", "watch-later-topaz.vercel.app"] 
+        destination:[ "https://mta-ada-alerts.vercel.app/project/:path*", "watch-later-topaz.vercel.app/project/:path*"] 
         // Proxy to blog app
       },
     ];
